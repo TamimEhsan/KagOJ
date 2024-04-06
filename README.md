@@ -3,18 +3,23 @@
 # KagOJ
 Kagoj is an online judge platform specialized to host lab test and evaluation of CSE, BUET. Automated code compilation, validation and evaluation is aimed to provide efficiency to both the teachers and students.
 
+PS: for initial version of the project please refer to [Kagoj-Old](https://github.com/TamimEhsan/KagOJ-Old)
+
 ## Project Details
 ### Code editor
 KagOJ has an code editor where students can directly code into and test their code. 
+
 ![](Assets/statement.png)
 ### Code compilation and execution
 Code compilation and execution is done in a sandboxed environment to ensure safety of host machine. Currently it only supports C and C++ as the supported language. And the verdicts supported are `Accepted`, `Wrong Answer`, `Time Limit Exceeded`, `Memory Limit Exceeded`, `Runtime Error` and `Compilation Error`.
+
 ![](Assets/submission.jpg)
 ### Grading
 The system grades the submission based on the number of test cases passed. The evalutors can also alternate the marking based on their preferences.
 
 ### Site management
 Teachers can create courses and add students to those courses. Teachers can also add problems to the courses for exam or for practice
+
 ![](Assets/ui.png)
 ### Problem Generation and Test Cases
 Teachers can add new problems and add test cases for them. The test cases can be marked as sample or hidden for evaluation.
